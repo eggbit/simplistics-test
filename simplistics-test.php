@@ -37,7 +37,7 @@ else {
                     author_name tinytext NOT NULL,
                     author_url varchar(255) NOT NULL,
                     language char(4) NOT NULL,
-                    profile_photo_url varchar(255) NOT NULL,
+                    profile_photo_url varchar(255),
                     rating smallint NOT NULL,
                     relative_time_description tinytext NOT NULL,
                     text text NOT NULL,
